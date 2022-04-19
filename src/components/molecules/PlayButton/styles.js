@@ -5,7 +5,7 @@ export const PlayButtonContainer = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: ${({ theme }) => theme.colors.white};
   width: ${({ theme }) => theme.metrics.px(100)}px;
   height: ${({ theme }) => theme.metrics.px(36)}px;
